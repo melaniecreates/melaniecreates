@@ -1,0 +1,67 @@
+.quicklinks {	
+	text-align: center;
+	position: fixed;
+	top: 5rem;	
+	width: 5rem;
+	left: 1em;
+	z-index: 999;
+}
+
+.quicklinks ._16N7o {
+	top:-2.3em;
+}
+
+.quicklink-wrap {
+	background-color: rgba(47, 62, 69, 0.84);
+	border-radius: 50%;
+	height: 7em;
+	width: 7em;
+}
+
+.quicklink-wrap:hover {
+	background-color:  rgba(223, 20, 101, .7);
+}
+
+.quicklinks a {
+	color: #FFF;
+	font-size: .8rem;
+	line-height: 1rem;
+	margin:0 auto;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+}
+
+.quicklinks a, .quicklinks	nav .material-icons {
+	opacity: .85;
+}
+.active a, .active a .material-icons {
+	opacity: 1;
+}
+
+.quicklinks	nav .material-icons {
+	display: block;
+	margin: 1em auto 0 auto;
+	color: inherit;
+	position: relative;
+	padding: .6em 0 .3em 0;
+}
+
+.quicklinks	a.active .quicklink-wrap{
+	background-color: rgba(47, 62, 69, 1);
+}
+
+.quicklinks	a.quicklink:hover {
+	color: #FFF;
+}
+
+.homeLink {
+  left: 2.7em;
+  top: 1.5em;
+  position: fixed;
+  z-index: 999;
+}
+
+.homeLink img {
+	width: 2.5em;
+}

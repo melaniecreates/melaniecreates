@@ -1,0 +1,51 @@
+.portfolioPage {
+	background-color: #EEEEEE;
+	margin: 0 auto ;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.portfolioItem {
+	width: 100%;
+    margin: 0 2em 2em 0;
+}
+.portfolioItem .itemImg { 
+	max-width: 25em;
+}
+.portfolioItem .txt { 
+	text-align: left;
+	margin-left: 25em;
+	color: black;
+}
+.portfolioItem  h5 {
+	font-size: 1em !important;
+	font-weight: 500 !important;
+}
+
+.portfolioItem .txt div:first-child {
+	margin: 0;
+}
+
+.portfolioItem .txt.grow {
+    background: #1F7E86;
+}
+
+.portfolioItem .txt.paypal {
+    background: #235CD5;
+}
+
+.portfolioItem .txt.af {
+    background: #2F3E45;
+}
+
+.portfolioItem .txt.eco {
+    background: #96C23F;
+}
+
+.portfolioItem .txt.soul {
+    background: #db4437;
+}
+
+ .portfolioItem .txt.shekooh {
+	background: #ff9800;
+}

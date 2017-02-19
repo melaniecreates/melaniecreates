@@ -1,0 +1,27 @@
+header.topNav {
+  background-color: #2F3E45;
+  padding-left:3.2em;
+  box-shadow: none;
+}
+
+#home header.topNav {
+  background-color: transparent;
+}
+
+.topNav h1 {
+  color: white;
+}
+
+.topNav .navLinks {
+  text-align: left;
+  width: 100%;
+}
+
+.topNav .navLinks a {
+  color: #FFF;
+}
+
+
+
+
+

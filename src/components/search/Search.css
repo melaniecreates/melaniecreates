@@ -1,0 +1,25 @@
+.topBarSearch {
+	margin: 0 -50%;
+}
+
+.topBarSearch  label{
+	color: #D5D3D3;
+}
+
+.topBarSearch input{
+	color: white;
+	border-bottom: 1px solid rgba(255,255,255,.4);
+	min-width: 20em;
+}
+
+.topBarSearch div {
+	color: white;
+}
+
+.topBarSearch .material-icons {
+	color:white;
+}
+
+._1ryxc::after {
+	border-top: 5.49px solid rgba(255,255,255,.52)
+}

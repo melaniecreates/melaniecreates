@@ -1,0 +1,77 @@
+#homePage {
+
+}
+
+
+
+.homebg {
+	background: url('./../../../../images/banner-color.jpg') no-repeat 0 0 ;
+	background-size: cover;
+}
+
+.homebgTransLayer {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.landing-slogan {
+  width: 100%;
+  margin: 10em auto;
+  text-align: center;
+}
+
+.landing-slogan img{
+	width: 100%;
+	max-width: 30em;
+}
+
+.about-summary, .latest-project {
+	padding: 3em 1em;
+	text-align: center;
+} 
+
+.about-summary {
+	background: #C2185B;
+}
+
+.about-summary h2, .about-summary p {
+	color: #fff;
+}
+
+.about-summary h2, {
+	font-size: 1.8em;
+}
+
+.latest-project {
+	background-color: #EEEEEE;
+
+}
+
+.latest-project h2 {
+	font-size: 3em;
+	line-height: .5em;
+	margin-top: 0;
+}
+
+.latest-project .paypal-project {
+	width: 90%;
+	background: #263238;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.latest-project .paypal-project h3 {
+	font-size: 1.5em;
+	padding: 0 0 2em;
+	border-bottom:1px solid #2F3E45;
+}
+
+.latest-project .paypal-project h3, .latest-project .paypal-project p {
+	color: #D6D4D4;
+	font-weight: 400;
+}
+
+.latest-project .paypal-project span {
+	color: #FFF;
+}
+
+
