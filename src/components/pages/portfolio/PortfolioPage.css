@@ -1,51 +1,94 @@
+{/* Styles for portfolio listing page */}
+
 .portfolioPage {
 	background-color: #EEEEEE;
 	margin: 0 auto ;
 	text-align: center;
-	padding-top: 2em;
+}
+
+.portfolioPage .mainContent {
+	margin: 0 2em 0 10em
 }
 
 .portfolioItem {
-	width: 100%;
-    margin: 0 2em 2em 0;
+  text-align: left;
+  margin: 0 0 2em 0;
+  max-width: 100em;
+  padding: 6em;
 }
-.portfolioItem .itemImg { 
+
+.portfolioItem ul {
+  padding: 0 0em 0 0em;
+}
+
+.portfolioItem li { 
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.portfolioItem li.txt {
+	word-wrap: break-word;
+}
+
+.portfolioItem .portfolioImg{ 
 	max-width: 25em;
+	margin-right: 4.5em;
+	width: 100%;
 }
-.portfolioItem .txt { 
-	text-align: left;
-	margin-left: 25em;
-	color: black;
+
+.portfolioItem h2 {
+	font-size: 2.2em;
+	margin-top: 0;
 }
-.portfolioItem  h5 {
-	font-size: 1em !important;
-	font-weight: 500 !important;
+
+.portfolioItem p {
+	font-size: 1.4em;
+	max-width: 30em;
 }
 
 .portfolioItem .txt div:first-child {
 	margin: 0;
 }
 
-.portfolioItem .txt.grow {
-    background: #1F7E86;
+
+{/* Global Styles across each portfolio information page */}
+
+.portfolioItemLandingImg {
+	max-height: 40em;
+	overflow: hidden;
 }
 
-.portfolioItem .txt.paypal {
-    background: #235CD5;
+.portfolioItemLandingImg img{
+ width: 100%;
 }
 
-.portfolioItem .txt.af {
-    background: #2F3E45;
+.portImgFrame {
+	background-color: #EFEFEF; 
+	text-align: center;
 }
 
-.portfolioItem .txt.eco {
-    background: #96C23F;
+.portImgFrame img {
+	width: 100%;
+	max-width: 90em;
+	margin: 0 auto;
 }
 
-.portfolioItem .txt.soul {
-    background: #db4437;
+{/* Global Responsive images across portfolio pages */}
+
+.responsiveImgs {
+	text-align: center;
+}
+.responsiveTablet {
+	max-width: 35em;
+	margin: 0 auto;
+}
+.responsiveMobile {
+	max-width: 15em;
+	margin: 0 auto;
+	vertical-align: top;
+	margin-left: 2em;
 }
 
- .portfolioItem .txt.shekooh {
-	background: #ff9800;
-}
+
+
+

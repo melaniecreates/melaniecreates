@@ -2,19 +2,77 @@
 	min-height: 30rem;
 	padding: 8em 0 2em 0;
 	color: #1E1E1E;
+	text-align: left;
 }
 
 .contentPadding {
-	padding: 3em 10em 3em 10em;
-	max-width: 60em;
-	margin: 0 auto;
+	padding: 0em 10em 3em 10em;
 }
 
 .whiteBg {
 	background-color: white;
 }
+.grayBg {
+	background-color: #F6F6F6;
+}
+
+.pageHeading {
+	max-width: 45em;
+	margin: 0 auto;
+	text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.pageHeading p {
+	font: normal 400 1.5em/1.7em Roboto;
+	margin: 2em 0;
+}
+
+.pageHeading .gray {
+	font: italic 200 1.15em/1.6em Roboto;
+	color: #aaa;
+}
+
+.txtAreaWrap {
+	margin: 0 10em;
+	padding: 5em 0 5em 0;
+	text-align: center;
+}
+
+.txtAreaWrap .txtArea {
+	text-align: center;	
+	width: 100%;
+	max-width: 80em;
+	margin: 0 auto;
+	position: relative;
+}
+
+.txtAreaWrap .txtArea .txt {
+	text-align: left;
+	max-width: 52em;
+	margin: 0 auto;
+}
 
 
-.pageIntro {
-  font-size: large;
+h2 small {
+	font-size:.5em;
+	text-transform: uppercase;
+}
+
+q {
+	font: italic 400 1.5em/1.6em Roboto;
+	color: ##853962;
+}
+.quote {
+	width: 50em;
+	text-align: center;
+	margin: 3em 0;
+}
+
+strong {
+	color: black;
+	margin: 0 .2em;
+	font-weight: bolder;
+	font-style: italic;
 }

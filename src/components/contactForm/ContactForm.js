@@ -1,6 +1,7 @@
 import React from "react";
 import './ContactForm.css';
 import Input from 'react-toolbox/lib/input/Input';
+import {Button, IconButton} from 'react-toolbox/lib/button/Button';
 
 
 export default class ContactForm extends React.Component {
@@ -14,15 +15,12 @@ export default class ContactForm extends React.Component {
 			<div className="contactForm">
 				<h1>Say Hello, I would love to hear about your project.</h1>
 
-		        <Input type='text' label='Name' name='name' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} maxLength={16} />
-		        <Input type='text' hint='With Hint, no label' name='name' value={this.state.label} onChange={this.handleChange.bind(this, 'label')} maxLength={16} />
-		        <Input type='text' label='Disabled field' disabled />
-		        <Input type='text' multiline label='Multiline' maxLength={20} value={this.state.multiline} onChange={this.handleChange.bind(this, 'multiline')} />
-		        <Input type='email' label='Email address' icon='email' value={this.state.email} onChange={this.handleChange.bind(this, 'email')} />
-		        <Input type='tel' label='Phone' name='phone' icon='phone' value={this.state.phone} onChange={this.handleChange.bind(this, 'phone')} />
-		        <Input type='text' value={this.state.hint} label='Required Field' hint='With Hint' required onChange={this.handleChange.bind(this, 'hint')} icon='share' />
-		        <Input type='text' label='error' error={<span>Error!! <a href="#!" onClick={e => { e.preventDefault(); console.log('some help'); }}>?</a></span>} />
-     
+		        <Input type='text' label='Name' name='name'  required  value={this.state.name} onChange={this.handleChange.bind(this, 'name')} maxLength={16} />
+		        <Input type='text' multiline  required  label='Tell me about your business' maxLength={20} value={this.state.multiline} onChange={this.handleChange.bind(this, 'multiline')} />
+		        <Input type='email' required label='Email address' icon='email' value={this.state.email} onChange={this.handleChange.bind(this, 'email')} />
+		        <Input type='tel' required  label='Phone' name='phone' icon='phone' value={this.state.phone} onChange={this.handleChange.bind(this, 'phone')} />
+		        <Input type='text' value={this.state.hint} label='Business' hint='With Hint'  onChange={this.handleChange.bind(this, 'hint')} icon='share' />
+     			<Button icon='send' label='Get In Touch' accent />
 		    </div>
 		);
 	}

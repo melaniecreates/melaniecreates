@@ -1,0 +1,46 @@
+html{
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+	color: #3e3e3e;
+}
+
+body {
+	margin: 0;
+  background: #EEEEEE !important;
+}
+
+a {
+  text-decoration: none;
+  color: #C00B5B; 
+}
+a:hover {
+  color: #e4106e;
+}
+
+h1, h2, h3, h4 {
+	color: #49616C;
+  font-weight: 600;
+  font-family: "Abhaya Libre","Times New Roman",Times,serif;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
+p {
+  font: normal 400 1.2em/1.6em Roboto;
+  margin: 1.8em 0
+}
+
+img {
+  width: 100%;
+}
+

@@ -21,94 +21,81 @@ const PorfolioPage = React.createClass ({
           <TopNavigation flat={false} />
     	  	<section className="portfolioPage">
     	        <div className="pageHeader mainContent">
-
                 
                   <Card className="portfolioItem">
-                    <CardMedia className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/grow-thumb.gif')}
-                    >
-                    <CardTitle className="txt"
-                      title="Invest with Grow"
-                      subtitle="Invest with Grow. Environmentally substainable good governance.">
-                      <CardActions>
-                        <Link to="/portfolio/grow">Read More</Link>
-                      </CardActions>
-                    </CardTitle>
-                    </CardMedia>
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/grow-thumb.gif')} /></li>
+                      <li className="txt">
+                        <h2>Invest with Grow</h2>
+                        <p>Invest with Grow. Environmentally substainable good governance.</p>
+                        <p><Link to="/portfolio/grow">Read More</Link></p>
+                      </li>
+                    </ul>
+                  </Card>
+                  <Card className="portfolioItem">
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/paypal-thumb.gif')} /></li>
+                      <li className="txt">
+                        <h2>Paypal Corp.</h2>
+                        <p>Designing with Goggle's Material UI and developing with Facebooks React JS.</p>
+                        <p><Link to="/portfolio/paypal">Read More</Link></p>
+                      </li>
+                    </ul>
                   </Card>
 
                   <Card className="portfolioItem">
-                    <CardMedia className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/paypal-thumb.gif')}
-                    />
-
-                    <CardTitle className="txt"
-                      title="Paypal Corp."
-                      subtitle="Designing with Goggle's Material UI and developing with Facebooks React JS."
-                    />
-                    <CardActions>
-                      <Link to="/portfolio/paypal">Read More</Link>
-                    </CardActions>
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/all-fashionista-thumb.jpg')} /></li>
+                      <li>
+                        <div className="txt">
+                          <h2>All Fashionista</h2>
+                          <p>Magento eCommerce website design and development</p>
+                          <p><Link to="/portfolio/af">Read More</Link></p>
+                        </div>
+                      </li>
+                    </ul>
                   </Card>
 
                   <Card className="portfolioItem">
-                    <CardMedia  className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/all-fashionista-thumb.jpg')}
-                    />
-                    <CardTitle className="txt"
-                      title="All Fashionista"
-                      subtitle="Magento eCommerce website design and development">
-                      <CardActions>
-                        <Link to="/portfolio/af">Read More</Link>
-                      </CardActions>
-                    </CardTitle>
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/eco-reserve-thumb.jpg')} /></li>
+                      <li>
+                        <div className="txt">
+                          <h2>Eco Reserve</h2>
+                          <p>Developing the front end of a...</p>
+                          <p><Link to="/portfolio/eco">Read More</Link></p>
+                        </div>
+                      </li>
+                    </ul>
                   </Card>
+
+
 
                   <Card className="portfolioItem">
-                    <CardMedia className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/eco-reserve-thumb.jpg')}
-                    />
-                    <CardTitle className="txt"
-                      title="Eco Reserve"
-                      subtitle="Developing the front end of a..."
-                    />
-                    <CardActions>
-                      <Link to="/portfolio/eco">Read More</Link>
-                    </CardActions>
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/shekooh-thumb.jpg')} /></li>
+                      <li>
+                        <div className="txt">
+                          <h2>Eco Reserve</h2>
+                          <p>Developing the front end of a...</p>
+                          <p><Link to="/portfolio/shekooh">Read More</Link></p>
+                        </div>
+                      </li>
+                    </ul>
                   </Card>
 
-                  <Card className="portfolioItem shekooh">
-                    <CardMedia className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/shekooh-thumb.jpg')}
-                    />
 
-                    <CardTitle className="txt"
-                      title="Invest with Grow"
-                      subtitle="Invest with Grow. Environmentally substainable good governance."
-                    />
-                    <CardActions>
-                      <Link to="/portfolio/shekooh">Read More</Link>
-                    </CardActions>
-                  </Card>
-
-                  <Card className="portfolioItem shekooh"  contentOverlay="true">
-                    <CardMedia className="itemImg"
-                      aspectRatio="wide"
-                      image={require('./../../../../images/soul-thumb.jpg')}
-                    />
-
-                    <CardTitle className="txt"
-                      title="Invest with Grow"
-                      subtitle="Invest with Grow. Environmentally substainable good governance."
-                    />
-                    <CardActions>
-                      <Link to="/portfolio/shekooh">Read More</Link>
-                    </CardActions>
+                  <Card className="portfolioItem">
+                    <ul>
+                      <li><img className="portfolioImg" src={require('./../../../../images/soul-thumb.jpg')} /></li>
+                      <li>
+                        <div className="txt">
+                          <h2>Soul</h2>
+                          <p>Developing the front end of a...</p>
+                          <p><Link to="/portfolio/soul">Read More</Link></p>
+                        </div>
+                      </li>
+                    </ul>
                   </Card>
 
                 <ContactForm />

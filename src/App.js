@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Global.css';
 import Quicklinks from './components/quicklinks/Quicklinks.js';
 import Footer from './components/footer/Footer.js';
 import AboutPage from './components/pages/about/AboutPage.js'; 
