@@ -18,5 +18,19 @@
 .afPage .productpgImg {
 	max-width: 80em;
 	margin: 0 auto;
+	border-left: .1em solid #fff;
+	border-right: .1em solid #fff;
 }
 
+ .afPage .productpgImg img {
+ 	display: block;
+}
+
+.magentoDevImg {
+	margin-top: 2em;
+}
+
+
+.afPage h2 {
+	margin-top: 0;
+}

@@ -37,10 +37,15 @@ h2 {
 
 p {
   font: normal 400 1.2em/1.6em Roboto;
-  margin: 1.8em 0
+  margin: 1.8em 0;
+}
+
+q {
+  color: #853962;
 }
 
 img {
   width: 100%;
+  display: block;
 }
 

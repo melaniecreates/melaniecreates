@@ -77,16 +77,22 @@
 
 .responsiveImgs {
 	text-align: center;
+	padding-bottom: 5em;
 }
-.responsiveTablet {
-	max-width: 35em;
-	margin: 0 auto;
-}
-.responsiveMobile {
-	max-width: 15em;
+
+.responsiveImgs img {
+	display: inline;
 	margin: 0 auto;
 	vertical-align: top;
-	margin-left: 2em;
+}
+
+img.responsiveTablet {
+	max-width: 35em;
+
+	margin-right: 2em;
+}
+img.responsiveMobile {
+	max-width: 15em;
 }
 
 

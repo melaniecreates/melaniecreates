@@ -9,7 +9,7 @@ class Footer extends React.Component {
   render (){
     return (
     	<ThemeProvider theme={theme}>
-	      <footer>
+	      <footer className="">
 	      	<section className="footerWrap">
 		        <img className="footerLogo" src={require('./../../../images/melanie-creates-logo-gray.png')} />
 			    <p>San Francisco Bay Area, Redwood City, CA 94065<br /><a href="mailto:melaniejanegraham@gmail.com">melaniejanegraham@gmail.com</a></p>

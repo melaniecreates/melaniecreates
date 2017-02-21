@@ -1,6 +1,6 @@
 .mainContent {
 	min-height: 30rem;
-	padding: 8em 0 2em 0;
+	padding: 8em 0 0 0;
 	color: #1E1E1E;
 	text-align: left;
 }
@@ -31,7 +31,7 @@
 
 .pageHeading .gray {
 	font: italic 200 1.15em/1.6em Roboto;
-	color: #aaa;
+	color: #888;
 }
 
 .txtAreaWrap {

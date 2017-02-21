@@ -1,8 +1,7 @@
 .contactForm {
 	clear: both;
-	padding-top: 2em;
-	padding-left: 10em;
-	max-width: 40em;
+	padding: 2em 10em 5em 10em;
+	max-width: 50em;
 	margin: 0 auto;
 }
  

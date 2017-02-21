@@ -66,12 +66,10 @@ const AfPage = React.createClass ({
                     <section className="txtArea">
                       <div className="txt">
                        <h2>Magento Configuration &amp; Management</h2>
-                        <ul>
-                          <li>Amazon’s Bitnami Cloud hosting service provided me with a Magento installation</li>
-                          <li>Through the Magento admin dashboard I was able to configure the site. I built product types and attributes, created the catalog database, configured payment information, and configured all other required settings to have a fully functioning website that accepts customer payments</li>
-                          <li>I also, sourced and negotiated inventory with local and international suppliers, and distributed the products to customers</li>
-                        </ul>
-                        <img src={require('./../../../../../images/magento-development-img.gif')} />
+                        <p>I configure the site through the admin dashboard after installing Magento on the server. I built product types and attributes, created the catalog database, configured payment information, and configured all other required settings to have a fully functioning website that accepts customer payments</p>
+                        <p>I also, sourced and negotiated inventory with local and international suppliers, and distributed the products to customers</p>
+                        
+                        <img className="magentoDevImg" src={require('./../../../../../images/magento-development-img.gif')} />
                        </div>
                     </section>
                   </div>
@@ -113,8 +111,9 @@ const AfPage = React.createClass ({
 
                 
 
-
-                <ContactForm />
+                <section className="whiteBg">
+                  <ContactForm />
+                </section>
 
     		    </section>
           </div>
