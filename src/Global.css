@@ -22,17 +22,32 @@ a:hover {
 h1, h2, h3, h4 {
 	color: #49616C;
   font-weight: 600;
-  font-family: "Abhaya Libre","Times New Roman",Times,serif;
 }
 
 h1 {
   font-size: 4em;
   text-transform: capitalize;
+  font-family: "Times New Roman", Times,serif;
 }
 
 h2 {
   font-size: 2.5em;
   text-transform: capitalize;
+  font-family: "Times New Roman", Times,serif;
+}
+h2 small {
+  font-family: "Roboto", sans-serif;
+  text-transform: none !important;
+}
+
+h3 {
+  font-size: 1.9em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 p {
@@ -49,3 +64,14 @@ img {
   display: block;
 }
 
+a.siteButton  {
+  border: 2px solid rgba(255,255,255,.7);
+  border-radius: 7em;
+  padding:.7em 1em;
+  color: rgba(255,255,255,.7);
+  font-size: 1.2em;
+} 
+a.siteButton:hover {
+  color: rgba(255,255,255,1);
+  border: 3px solid rgba(255,255,255,1);
+}

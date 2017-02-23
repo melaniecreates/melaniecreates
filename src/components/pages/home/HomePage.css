@@ -1,77 +1,161 @@
 #homePage {
-
 }
 
-
-
+{/* Landing section */}
 .homebg {
 	background: url('./../../../../images/banner-color.jpg') no-repeat 0 0 ;
 	background-size: cover;
+	height: 100%;
 }
-
 .homebgTransLayer {
 	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
 }
-
 .landing-slogan {
   width: 100%;
-  margin: 10em auto;
+  padding: 15em 1em;
   text-align: center;
 }
-
 .landing-slogan img{
 	width: 100%;
 	max-width: 30em;
+	margin: 0 auto;
 }
 
-.about-summary, .latest-project {
-	padding: 3em 1em;
+{/* About Summary */}
+.about-summary, .latest-project, .currently {	
+	padding: 5em 0em 5.2em;
 	text-align: center;
 } 
-
 .about-summary {
 	background: #C2185B;
 }
-
-.about-summary h2, .about-summary p {
+.about-summary h2 {
 	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 300;
+	text-transform: none;
+	font-size: 1.5em;
+	max-width: 30em;
+	margin: 0 auto 2.5em auto;
+}
+.about-summary p {
+	margin: 3em 0 0;
 }
 
-.about-summary h2, {
-	font-size: 1.8em;
+.about-summary .readmore {
+	font-size: 1.4em;
+	font-weight: 400;
+	margin: 0;
 }
+.about-summary .readmore a{
 
+}
+{/* Latest project & current project */}
 .latest-project {
 	background-color: #EEEEEE;
-
+	margin: 0 10em ;
+	max-width: 50em;
+	margin: 0 auto;
 }
 
-.latest-project h2 {
+.latest-project ul {
+
+	max-width: 25em;
+	margin: 0 auto;
+}
+
+.latest-project li {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+
+}
+.latest-project li:first-child ,  
+.latest-project li:nth-child(2) { 
+	padding: 5em 1em;
+	margin: 0;
+}
+
+.latest-project .materialImg {
+	margin: 0 -10em 0 25%
+ }
+ .latest-project .reactImg {
+ 	max-height: 12em;
+ }
+
+.latest-project li img {
+	min-height: 9em;
+	height: 100%;
+	max-height: 15em;
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+.latest-project h2, .currently h2 {
 	font-size: 3em;
-	line-height: .5em;
+	line-height: 1.3em;
 	margin-top: 0;
 }
 
+.latest-project h2 small, .currently h2 small {
+	font: .4em/1em 'Roboto';
+	text-transform: none;
+}
+
 .latest-project .paypal-project {
-	width: 90%;
 	background: #263238;
-	margin: 0 auto;
-	padding: 2em;
+}
+.latest-project .paypal-project, .currently .grow-project {
+	margin: 0 auto 2.6em auto;
+	width: 100%;
 }
 
-.latest-project .paypal-project h3 {
-	font-size: 1.5em;
+.latest-project .paypal-project h3, .currently .grow-project h3 {
 	padding: 0 0 2em;
-	border-bottom:1px solid #2F3E45;
-}
-
-.latest-project .paypal-project h3, .latest-project .paypal-project p {
-	color: #D6D4D4;
-	font-weight: 400;
-}
-
-.latest-project .paypal-project span {
 	color: #FFF;
+	font-size: 1.6em;
+	line-height: 2em;
+	font-weight: 400;
+	margin: 0 0 2em 0;
+}
+.currently .grow-project h3 {
+	border-bottom:1px solid rgba(255,255,255,.2);
+}
+.latest-project .paypal-project p, .currently .grow-project p {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin: 1em 1em 0;
+	color: rgba(255,255,255,.85);
 }
 
+.paypal-project .readmore {
+	border-top:1px solid rgba(255,255,255,.05);
+	padding:4em;
+	margin: 0;
+}
+
+.readmore a{
+	font-size: .9em;
+	color: rgba(255,255,255,.7);
+}
+
+.readmore a:hover{
+	color: rgba(255,255,255,1);
+}
+
+.currently .grow-project {
+	background-color: #00a6b2;
+	color: white;
+}
+
+{/* Technology section */}
+.technology {
+	text-align: center;
+	padding: 3em 10em;
+}
+
+.technology section {
+	text-align: left;
+}
 

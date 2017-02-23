@@ -19,7 +19,7 @@
 }
 
 .quicklink-wrap:hover {
-	background-color:  rgba(223, 20, 101, .7);
+	background-color:  rgba(47, 62, 69, 1);
 }
 
 .quicklinks a {
@@ -34,6 +34,9 @@
 
 .quicklinks a, .quicklinks	nav .material-icons {
 	opacity: .85;
+}
+.quicklinks a:hover, .quicklinks nav .material-icons:hover {
+	opacity: 1;
 }
 .active a, .active a .material-icons {
 	opacity: 1;

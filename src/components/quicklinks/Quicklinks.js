@@ -18,7 +18,7 @@ const Quicklinks = () => (
 		</div>
 	  <QuicklinksLayout>
 	      <nav>
-	        <Link activeClassName="active" className="quicklink" to="/about"><div className="quicklink-wrap"><RippleLink rippleCentered={true} ><FontIcon value='face' />About</RippleLink></div></Link>
+	        <Link activeClassName="active" className="quicklink" to="/"><div className="quicklink-wrap"><RippleLink rippleCentered={true} ><FontIcon value='face' />About</RippleLink></div></Link>
 	        <Link activeClassName="active" className="quicklink" to="/portfolio"><div className="quicklink-wrap"><RippleLink rippleCentered={true}><FontIcon value='palette' />Portfolio</RippleLink></div></Link>
 	        <Link activeClassName="active" className="quicklink" to="/technology"><div className="quicklink-wrap"><RippleLink rippleCentered={true}><FontIcon value='code' />Technology</RippleLink></div></Link>
 	        <Link activeClassName="active" className="quicklink" to="/contact"><div className="quicklink-wrap"><RippleLink rippleCentered={true}><FontIcon value='mail' />Contact</RippleLink></div></Link>
