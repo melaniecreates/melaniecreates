@@ -68,23 +68,14 @@ const PorfolioPage = React.createClass ({
                       </li>
                     </ul>
                   </Card>
-
-
-
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/shekooh-thumb.jpg')} /></li>
-                      <li>
-                        <div className="txt">
-                          <h2>Eco Reserve</h2>
-                          <p>Developing the front end of a...</p>
-                          <p><Link to="/portfolio/shekooh">Read More</Link></p>
-                        </div>
-                      </li>
-                    </ul>
+                  <Card className="">
+                     <CardTitle
+                        title="Shekooh"
+                      />
+                      <CardMedia
+                        image="{require('./../../../../images/shekooh-thumb.jpg')}"
+                      />
                   </Card>
-
-
                   <Card className="portfolioItem">
                     <ul>
                       <li><img className="portfolioImg" src={require('./../../../../images/soul-thumb.jpg')} /></li>

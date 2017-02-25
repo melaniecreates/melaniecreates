@@ -1,0 +1,7 @@
+.shekoohPage .portfolioItemLandingImg {
+	background: white url('./../../../../../images/shekooh-landing.jpg') no-repeat 100% 100% ;
+	height: 600em;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+}

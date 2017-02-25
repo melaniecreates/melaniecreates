@@ -18,8 +18,8 @@ const PaypalPage = React.createClass ({
                     <p className="gray">To comply with my confidentiality agreement I have omitted and appropriated confidential information. These designs are a reinterpretation of the original.</p>
                 </div>
 
-                <section className="portfolioItemLandingImg">
-                   <img src={require('./../../../../../images/af-landing-img.jpg')} />
+                <section className="portfolioItemLandingImg grayBg">
+                   <img src={require('./../../../../../images/PayPal-HQ-San-Jose.jpg')} />
                 </section>
                 
                 <section className="whiteBg">
@@ -27,7 +27,7 @@ const PaypalPage = React.createClass ({
                     <section className="txtArea">
                       <div className="txt">
                         <h2>My Role</h2>
-                        <p>This project took place between February 2011 and January 2013 in Sydney, Australia. <strong>I designed</strong> the interface, <strong>developed</strong> the website, and managed everything as a store owner. I controlled everything from sourcing products, administration and customer support.</p>
+                        <p>This project took place between October 2016 and January 2017 in San Jose, California. <strong>I designed</strong> the interface, <strong>developed</strong> the website, and managed everything as a store owner. I controlled everything from sourcing products, administration and customer support.</p>
                         <p>I worked remotely with Jeremy Graham, a senior Magento eCommerce developer at Doghouse media. He directed me through best practices and coding techniques.</p>
                         <p>I was <strong>responsible for</strong> online branding, user interface design, user experience prototyping, front-end development, Magento configuration and installation, product catalog administration, and inventory for ‘All Fashionista’—a Magento eCommerce online store.</p>
                       </div>
