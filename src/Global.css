@@ -75,3 +75,6 @@ a.siteButton:hover {
   color: rgba(255,255,255,1);
   border: 3px solid rgba(255,255,255,1);
 }
+
+.grow { transition: all .3s ease-in-out; }
+.grow:hover { transform: scale(1.02); }

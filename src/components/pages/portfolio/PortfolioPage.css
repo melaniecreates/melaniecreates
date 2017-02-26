@@ -11,27 +11,63 @@
 }
 
 
-.portfolioItem h2 {
+.portfolioItem h5 {
 	font-size: 2.2em;
 	margin-top: 0;
 }
 
-.portfolioItem p {
-	font-size: 1.4em;
-	max-width: 30em;
+.portfolioItems {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 100em;
+	display: flex;
+	flex-wrap: wrap;
+}
+.portfolioItem {
+	max-width: 28em;
+	margin: 1em;
+	padding: 0;
+	flex-grow: 1;
+  width: 33%;
 }
 
-.portfolioItem .txt div:first-child {
+.portfolioItem div:first-child {
+	padding: 0 !important;
+	margin: 0 auto;
+}
+
+.portfolioItem .img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		min-width: 28em;
+		margin: 0;
+		padding: 0;
+}
+
+.portfolioItem .txt {
+	background-color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.9);
+	margin-top: -5em;
+	z-index: 999;
+	position: relative;
+	padding: 0;
+}
+.portfolioItem .txt h5 {
+	font-size: 1.1em !important;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
 	margin: 0;
+	font-weight: 400 !important;
+}
+
+.portfolioItem:hover .txt  {
+	color: white;
 }
 
 
 {/* Global Styles across each portfolio information page */}
-
-.portfolioItemLandingImg {
-	max-height: 40em;
-	overflow: hidden;
-}
 
 .portfolioItemLandingImg img{
  width: 100%;

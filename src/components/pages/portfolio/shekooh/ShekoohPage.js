@@ -26,9 +26,11 @@ const ShekoohPage = React.createClass ({
                     <section className="txtArea">
                       <div className="txt">
                         <h2>My Role</h2>
-                        <p>I freelanced for ShekOoh between November 2011 and September 2012 in Sydney, Australia. I was initially responsible for designing and developing the business's new information website. I launched this website early 2012.</p>
-                        <p>The client later returned and requested an eCommerce website design. I then designed the UI for an online store and prototyped the users experience.</p>
-                        <p>I worked closely with the business owners on website goals, requirements, content strategy, branding, and design vision. Additionaly, I educated management on design principles and technical requirements.</p>
+                        <div className="multiColumn">
+                          <p className="firstcharacter">I freelanced for ShekOoh between November 2011 and September 2012 in Sydney, Australia. I was initially responsible for designing and developing the business's new information website. I launched this website early 2012.</p>
+                          <p>The client later returned and requested an eCommerce website design. I then designed the UI for an online store and prototyped the users experience.</p>
+                          <p>I worked closely with the business owners on website goals, requirements, content strategy, branding, and design vision. Additionaly, I educated management on design principles and technical requirements.</p>
+                        </div>
                       </div>
                     </section>
                   </div>

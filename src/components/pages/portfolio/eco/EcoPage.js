@@ -27,9 +27,11 @@ const EcoPage = React.createClass ({
                     <section className="txtArea">
                       <div className="txt">
                         <h2>My Role</h2>
-                        <p>I worked for ecoReserve between February 2010 and September 2011, as a front-end web developer. I worked remotely in Sydney, Australia. I corresponded and collaborated with management and the development team in San Francisco and India. I developed the front-end using HTML, CSS and JavaScript/Jquery. My code was then integrated into the web platform by the Indian team.</p>
-                        <p>I was lucky enough to have the privilege of working with the talented senior developer ‘Mary Haynes’ on coding the UI, and a great management team.</p>
-                        <p>I was also responsible for designing and developing electronic emails, and redesigning the UI to accommodate for technical limitations.</p>
+                        <div className="multiColumn">
+                          <p className="firstcharacter">I worked for ecoReserve between February 2010 and September 2011, as a front-end web developer. I worked remotely in Sydney, Australia. I corresponded and collaborated with management and the development team in San Francisco and India. I developed the front-end using HTML, CSS and JavaScript/Jquery. My code was then integrated into the web platform by the Indian team.</p>
+                          <p>I was lucky enough to have the privilege of working with the talented senior developer ‘Mary Haynes’ on coding the UI, and a great management team.</p>
+                          <p>I was also responsible for designing and developing electronic emails, and redesigning the UI to accommodate for technical limitations.</p>
+                        </div>
                       </div>
                     </section>
                   </div>

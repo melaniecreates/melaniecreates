@@ -21,80 +21,103 @@ const PorfolioPage = React.createClass ({
           <TopNavigation flat={false} />
     	  	<section className="portfolioPage">
     	        <div className="pageHeader mainContent">
-                
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/grow-thumb.gif')} /></li>
-                      <li className="txt">
-                        <h2>Invest with Grow</h2>
-                        <p>Invest with Grow. Environmentally substainable good governance.</p>
-                        <p><Link to="/portfolio/grow">Read More</Link></p>
-                      </li>
-                    </ul>
-                  </Card>
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/paypal-thumb.gif')} /></li>
-                      <li className="txt">
-                        <h2>Paypal Corp.</h2>
-                        <p>Designing with Goggle's Material UI and developing with Facebooks React JS.</p>
-                        <p><Link to="/portfolio/paypal">Read More</Link></p>
-                      </li>
-                    </ul>
+                <div className="portfolioItems">
+                  <Card className="portfolioItem grow">
+                    <CardActions >
+                      <Link to="/portfolio/grow">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/grow-thumb.gif')}
+                        />
+                        <CardTitle className="txt"
+                          title="UI/UX Design &amp; Development"
+                        />
+                      </Link>
+                    </CardActions>
+                  </Card> 
+
+                   <Card className="portfolioItem grow">
+
+                    <CardActions >
+                      <Link to="/portfolio/paypal">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/paypal-thumb.gif')}
+                        />
+                        <CardTitle className="txt"
+                          title="Material UI &amp; React JS."
+                        />
+                      </Link>
+                    </CardActions>
+                  </Card> 
+
+
+                  <Card className="portfolioItem grow">
+                    <CardActions>
+                      <Link to="/portfolio/af">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/all-fashionista-thumb.jpg')}
+                        />
+                        <CardTitle className="txt"
+                          title="Ecommerce Website Design &amp; Development"
+                        />
+                      </Link>
+                    </CardActions>
                   </Card>
 
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/all-fashionista-thumb.jpg')} /></li>
-                      <li>
-                        <div className="txt">
-                          <h2>All Fashionista</h2>
-                          <p>Magento eCommerce website design and development</p>
-                          <p><Link to="/portfolio/af">Read More</Link></p>
-                        </div>
-                      </li>
-                    </ul>
+                  <Card className="portfolioItem grow">
+                    <CardActions>
+                      <Link to="/portfolio/eco">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/eco-reserve-thumb.jpg')}
+                        />
+                        <CardTitle className="txt"
+                          title="Eco Reserves Development"
+                        />
+                      </Link>
+                    </CardActions>
                   </Card>
 
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/eco-reserve-thumb.jpg')} /></li>
-                      <li>
-                        <div className="txt">
-                          <h2>Eco Reserve</h2>
-                          <p>Developing the front end of a...</p>
-                          <p><Link to="/portfolio/eco">Read More</Link></p>
-                        </div>
-                      </li>
-                    </ul>
-                  </Card>
-                  <Card className="">
-                     <CardTitle
-                        title="Shekooh"
-                      />
-                      <CardMedia
-                        image="{require('./../../../../images/shekooh-thumb.jpg')}"
-                      />
-                  </Card>
-                  <Card className="portfolioItem">
-                    <ul>
-                      <li><img className="portfolioImg" src={require('./../../../../images/soul-thumb.jpg')} /></li>
-                      <li>
-                        <div className="txt">
-                          <h2>Soul</h2>
-                          <p>Developing the front end of a...</p>
-                          <p><Link to="/portfolio/soul">Read More</Link></p>
-                        </div>
-                      </li>
-                    </ul>
+                  <Card className="portfolioItem grow">
+
+                    <CardActions >
+                      <Link to="/portfolio/shekooh">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/shekooh-thumb.jpg')}
+                        />
+                        <CardTitle className="txt"
+                          title="Ecommerce UI/UX Design &amp; Branding"
+                        />
+                      </Link>
+                    </CardActions>
                   </Card>
 
-                <ContactForm />
+                  <Card className="portfolioItem grow">
+                    <CardActions >
+                      <Link to="/portfolio/soul">
+                        <CardMedia className="img"
+                          aspectRatio="wide"
+                          image={require('./../../../../images/soul-thumb.jpg')}
+                        />
+                        <CardTitle className="txt"
+                          title="UI/UX Development"
+                        />
+                      </Link>
+                    </CardActions>
+                  </Card>
+                </div>
 
 
 
     	        </div>
     		    </section>
+            
+                <div className="whiteBg">
+                  <ContactForm />
+                </div>
           </div>
         </ThemeProvider>
 	  );

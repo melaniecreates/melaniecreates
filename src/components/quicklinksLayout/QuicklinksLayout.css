@@ -58,11 +58,18 @@
 	color: #FFF;
 }
 
+
+
 .homeLink {
   left: 2.7em;
-  top: 1.5em;
+  top: 1.8em;
   position: fixed;
   z-index: 999;
+  transition: all .2s ease-in-out; 
+}
+
+.homeLink:hover {
+	transform: scale(1.1); 
 }
 
 .homeLink img {

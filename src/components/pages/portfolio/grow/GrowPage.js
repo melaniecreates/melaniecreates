@@ -29,7 +29,7 @@ Stay Tuned!</strong></p>
                     <section className="txtArea">
                       <div className="txt">
                         <h2>My Role</h2>
-                        <p>My freelancing projects with Grow took place between August 2016 till current in San Francisco, California. <strong>I designed </strong>  interfaces for <a href="">growcapital.us</a> and <a href="">growinvest</a> <strong>developed</strong> the website<a href="">growinvest.us</a> and <a href="">growcapital.us</a>. </p>
+                        <p className="multiColumn">My freelancing projects with Grow took place between August 2016 till current in San Francisco, California. <strong>I designed </strong>  interfaces for <a href="">growcapital.us</a> and <a href="">growinvest</a> <strong>developed</strong> the website<a href="">growinvest.us</a> and <a href="">growcapital.us</a>. </p>
                       </div>
                     </section>
                   </div>
